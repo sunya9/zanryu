@@ -1,4 +1,5 @@
 # zanryu
+[![Travis](https://img.shields.io/travis/sunya9/zanryu.svg?style=flat-square)](https://travis-ci.org/sunya9/zanryu)
 
 `/zanryu` は 特定の状況下において利用できる `/remind` コマンドの糖衣構文です。
 
