@@ -1,0 +1,12 @@
+{
+  "name": "zanryu",
+  "alias": "",
+  "env": {
+    "NODE_ENV": "production",
+    "TOKEN": "<your slack token>",
+    "DATE": "2weeks",
+    "TIME":  "09:00",
+    "MESSAGE": "",
+    "VERIFICATION_TOKEN": "<verification token>"
+  }
+}

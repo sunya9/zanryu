@@ -1,0 +1,29 @@
+{
+  "name": "zanryu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sunya9/zanryu.git",
+  "author": "sunya9 <mugen.xyz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^9.0.2",
+    "moment": "^2.19.3",
+    "r2": "^2.0.0",
+    "urlencoded-body-parser": "^2.0.1"
+  },
+  "scripts": {
+    "start": "micro index.js",
+    "dev": "micro-dev index.js",
+    "test": "npm run lint",
+    "lint": "eslint index.js",
+    "lint:fix": "eslint --fix index.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "micro-dev": "^1.4.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
